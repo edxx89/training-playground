@@ -11,7 +11,7 @@ pipeline {
                 command: "echo 'Java command!'"
             }, {
                 name: "Node",
-                command: "echo 'Node command!'"
+                command: "exit1 echo 'Node command!'"
             }]
         '''
     }
